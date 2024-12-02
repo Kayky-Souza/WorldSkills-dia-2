@@ -1,0 +1,22 @@
+body div.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+h2.tituloDoc{
+    background-color: #eee;
+    font-weight: lighter;
+    padding: 20px;
+}
+.inputObjetivo{
+    min-width: 100%;
+}
+.submit{
+    background-color: blue;
+    color: white;
+}
+.form-control{
+    margin: 5px 0;
+}

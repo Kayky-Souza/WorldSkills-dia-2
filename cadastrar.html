@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Curriculo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastrar.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <form class="formulario">
+            <h1 class="tituloDoc">Documentos Pessoais</h1>
+            <div class="form-group">
+                <label for="exampleInputNome">Nome completo</label>
+                <input type="text" class="form-control" id="exampleInputNome" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputData">Data Nascimento</label>
+                <input type="date" class="form-control" id="exampleInputData" placeholder="dd/mm/aaaa">
+                <label for="exampleInputNacionalidade">Nacionalidade</label>
+                <input type="text" class="form-control" id="exampleInputNacionalidade">
+
+                <label for="exampleInputNaturalidade">Naturalidade</label>
+                <input type="text" class="form-control" id="exampleInputNaturalidade">
+
+                <label for="exampleInputCPF">CPF</label>
+                <input type="number" class="form-control" id="exampleInputCPF">
+
+                <label for="exampleInputHabilitacao">Tipo de habilitação</label>
+                <input type="text" class="form-control" id="exampleInputHabilitacao">
+            </div>
+
+
+            <h2 class="tituloDoc">Informacoes Pessoais</h2>
+            <div class="form-group">
+                <label for="exampleInputGenero">Genero</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Masculino">
+
+                <select multiple class="form-control" id="exampleFormControlSelect">
+                    <optgroup label="Estado Civil">
+                        <option>Solteiro(a)</option>
+                        <option>Casado(a)</option>
+                        <option>Divorciado(a)</option>
+                        <option>viuvo(a)</option>
+                    </optgroup>
+                </select>
+
+                <p>voce possui alguma deficiencia?</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="sim">
+                    <label class="form-check-label" for="inlineRadio1">sim</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="nao">
+                    <label class="form-check-label" for="inlineRadio2">nao</label>
+                </div>
+            </div>
+
+            <h2 class="tituloDoc">Contatos</h2>
+
+            <label for="exampleInput">Telefone</label>
+            <input type="number" class="form-control" id="exampleInput">
+
+            <label for="exampleInp">Email</label>
+            <input type="email" class="form-control" id="exampleInp">
+
+            <h1 class="tituloDoc">Endereco</h1>
+
+            <label for="exampleInputTe">Pais</label>
+            <input type="text" class="form-control" id="exampleInputTe">
+
+            <label for="exampleInput">Estado</label>
+            <input type="text" class="form-control" id="exampleInput">
+
+            <label for="exampleInputTele">cidade</label>
+            <input type="text" class="form-control" id="exampleInputTele">
+
+            <label for="exampleInputEm">CEP</label>
+            <input type="number" class="form-control" id="exampleInputEm">
+
+            <label for="exampleInputTelefo">bairro</label>
+            <input type="text" class="form-control" id="exampleInputTelefo">
+
+            <label for="exampleInputEmai">rua</label>
+            <input type="text" class="form-control" id="exampleInputEmai">
+
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+                <optgroup label="Escolaridade">
+                    <option>Ensino Fundamental</option>
+                    <option>Ensino Medio</option>
+                    <option>Ensino Superior</option>
+                    <option>Pos Graduacao(especializacao)</option>
+                    <option>Pos Graduacao(mestrado)</option>
+                    <option>Pos Graduacao(doutorado)</option>
+                </optgroup>
+            </select>
+
+            <h2 class="tituloDoc">Cursos Complementares</h2>
+            <label for="experiencia">Experiencia</label>
+            <input type="text" class="form-control" id="experiencia">
+
+            <label for="Instituicao">Instituicao</label>
+            <input type="text" class="form-control" id="Instituicao">
+
+            <label for="pais">pais</label>
+            <input type="text" class="form-control" id="pais">
+
+            <label for="estado">estado</label>
+            <input type="text" class="form-control" id="estado">
+
+            <label for="cidade">cidade</label>
+            <input type="text" class="form-control" id="cidade">
+
+            <h2 class="tituloDoc">Idiomas</h2>
+
+            <label for="idioma">Nome do idioma</label>
+            <input type="text" class="form-control" id="idioma">
+
+            <select multiple class="form-control" id="exampleFormControlSelect3">
+                <optgroup label="conversacao">
+                    <option>nao tem</option>
+                    <option>basico</option>
+                    <option>intermediario</option>
+                    <option>avancado</option>
+                </optgroup>
+            </select>
+
+            <select multiple class="form-control" id="exampleFormControlSelect3">
+                <optgroup label="escrita">
+                    <option>nao tem</option>
+                    <option>basico</option>
+                    <option>intermediario</option>
+                    <option>avancado</option>
+                </optgroup>
+            </select>
+
+            <select multiple class="form-control" id="exampleFormControlSelect3">
+                <optgroup label="leitura">
+                    <option>nao tem</option>
+                    <option>basico</option>
+                    <option>intermediario</option>
+                    <option>avancado</option>
+                </optgroup>
+            </select>
+
+            <h2 class="tituloDoc">Objetivo</h2>
+
+            <textarea class="form-control" name="objetivo" id="inputObjetivo"></textarea>
+            <input class="form-control submit" type="submit" value="Salvar">
+
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
